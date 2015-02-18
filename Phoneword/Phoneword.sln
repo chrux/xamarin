@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoneword_iOS", "Phoneword_iOS\Phoneword_iOS.csproj", "{A2A4DEFF-E4E3-4AA7-8926-39331C8470B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phoneword_Droid", "Phoneword_Droid\Phoneword_Droid.csproj", "{7EA09647-B3B0-4279-8290-9BADCA6017C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|iPhoneSimulator = Debug|iPhoneSimulator
@@ -13,6 +15,18 @@ Global
 		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Release|iPhone.Build.0 = Release|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{7EA09647-B3B0-4279-8290-9BADCA6017C8}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{A2A4DEFF-E4E3-4AA7-8926-39331C8470B3}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{A2A4DEFF-E4E3-4AA7-8926-39331C8470B3}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{A2A4DEFF-E4E3-4AA7-8926-39331C8470B3}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
@@ -25,8 +39,5 @@ Global
 		{A2A4DEFF-E4E3-4AA7-8926-39331C8470B3}.Release|iPhone.Build.0 = Release|iPhone
 		{A2A4DEFF-E4E3-4AA7-8926-39331C8470B3}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{A2A4DEFF-E4E3-4AA7-8926-39331C8470B3}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
-		StartupItem = Phoneword_iOS\Phoneword_iOS.csproj
 	EndGlobalSection
 EndGlobal
